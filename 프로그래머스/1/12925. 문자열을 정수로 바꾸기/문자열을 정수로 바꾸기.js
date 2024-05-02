@@ -3,6 +3,5 @@ function solution(s) {
         return Number(s);
     }
 }
-let test = -123;
+let test = "-1234";
 console.log(solution(test));
-console.log(typeof test);
