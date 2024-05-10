@@ -1,9 +1,12 @@
 function solution(arr) {
-    let a = 0;
+    var answer = 0;
+    var sum = 0;
 
-    for (var i = 0; i < arr.length; i++) {
-        a += arr[i];
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
     }
-    answer = a / arr.length;
+    answer = sum / arr.length;
     return answer;
 }
+
+console.log(solution([1, 2, 3, 4]));
