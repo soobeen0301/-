@@ -1,11 +1,10 @@
 function solution(numbers) {
     var answer = 0;
-    
-    a = numbers.length;
-    for (i = 0; i < a; i++) {
-        answer += numbers[i];
-    };
-    answer = answer/a;
-    
+    var sum = 0;
+
+    for(let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+    }
+    answer = sum / numbers.length;
     return answer;
 }
