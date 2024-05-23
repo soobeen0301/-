@@ -1,8 +1,7 @@
 function solution(num1, num2) {
-    var answer = 0;
-    a = num1/num2 * 1000;
-    answer = parseInt(a);
-    return answer;
-}
+  var answer = 0;
 
-console.log(solution(1,16));
+  answer = Math.floor((num1 / num2) * 1000);
+
+  return answer;
+}
